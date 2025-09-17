@@ -4,7 +4,7 @@ const {
   getUsers,
   getUserById,
   deleteUser,
-} = require("../controllers/userController.");
+} = require("../controllers/userController");
 const router = express.Router();
 
 //user managment routes
