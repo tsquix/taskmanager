@@ -18,7 +18,6 @@ const UserProvider = ({ children }) => {
       setLoading(false);
       return;
     }
-    console.log("przeszlo do fetchuser");
     const fetchUser = async () => {
       try {
         const response = await axiosInstance.get(API_PATHS.AUTH.GET_PROFILE);
