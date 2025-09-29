@@ -29,7 +29,7 @@ const Dashboard = () => {
     const taskDistributionData = [
       { status: "Pending", count: taskDistribution?.Pending || 0 },
       { status: "In Progress", count: taskDistribution?.InProgress || 0 },
-      { status: "Pending", count: taskDistribution?.Completed || 0 },
+      { status: "Completed", count: taskDistribution?.Completed || 0 },
     ];
     setPieChartData(taskDistributionData);
 
